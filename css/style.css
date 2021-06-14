@@ -1,0 +1,426 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    line-height: 0.8;
+}
+
+/*======================= nav bar cess goes here =====================*/
+
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 120px;
+    transition: all linear .3s;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #a2ca28;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item{
+    padding: 0 28px;
+}
+
+.navbar {
+padding: 0;
+position: fixed;
+width: 100%;
+top: 0;
+left: 0;
+z-index: 9999;
+}
+/*=======================banner cess goes here =====================*/
+
+.banner-item{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.banner-content{
+    position: relative;
+    height: 100vh;
+    z-index: 999;
+}
+
+.content{
+    padding-left: 120px;
+    padding-bottom: 30px;
+}
+.content h3{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.content span{
+    font-family: 'Open Sans', sans-serif;
+    color: #a2ca28;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.content p{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.content p span{
+    font-family: 'Open Sans', sans-serif;
+    color: #fd634e;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.banner-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(253, 99, 78,0.30);
+    clip-path: polygon(0 81%, 100% 0, 100% 100%, 0% 100%);
+}
+
+/*======================= Service cess goes here =====================*/
+
+#service{
+    padding-top: 110px;
+    background-color: #a2ca28;
+}
+
+.service-details h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+.service-details p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 24px;
+}
+
+.service-icon{
+    padding-bottom: 4px;
+}
+.service-icon i{
+    font-size: 45px;
+    color: #fff;
+}
+
+.service-details a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+}
+.service-details a i{
+    font-size: 14px;
+    color: #fff;
+    margin: 0 8px;
+}
+
+.mx{
+    margin-bottom: 36px;
+}
+
+.second-details h6{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fd634e;
+    letter-spacing: 5px;
+    padding-bottom: 5px;
+}
+.second-details h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight:300;
+    text-transform: uppercase;
+    color: #a2ca28;
+}
+.second-details p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight:400;
+    color: #656e74;
+    line-height: 26px;
+    max-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+
+.service-gap{
+    margin-top: 124px;
+}
+.second-details a{
+    color: #b0d256;
+    border-bottom: 1px solid #b0d256;
+    font-weight: 600;
+}
+
+.service-second-item{
+    background-color: #fff;
+    padding: 56px 52px 100px 52px;
+    transition: all linear .3s;
+}
+
+.service-second-item:hover{
+    filter: drop-shadow(-5px -5px 5px rgba(0, 0, 0,0.2));
+}
+
+
+.service-second-img{
+    position: relative;
+}
+.second-overlay{
+    position: absolute;
+    bottom:45px;
+    right: 40px;
+}
+.third-over{
+    position: absolute;
+    bottom:45px;
+    left: 40px;
+}
+
+.third-details h6{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fd634e;
+    padding-bottom: 5px;
+}
+.third-details h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight:300;
+    text-transform: uppercase;
+    color: #a2ca28;
+    padding-bottom: 42px;
+}
+.human-main{
+    position: relative;
+}
+.human-head i{
+    font-size: 34px;
+    color: #e0e6e7;
+}
+.human-head {
+position: absolute;
+top: 50px;
+right: 50px;
+z-index: 99;
+}
+
+.third-details p{
+    padding-bottom: 28px;
+}
+
+.ser-third-item img{
+    padding-bottom:100px!important;
+}
+/*=======================bottom banner cess goes here =====================*/
+
+.banner-bottom{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.banner-bottom::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.banner-bottom-content{
+    height: 100vh;
+    position: relative;
+    z-index: 9999;
+}
+
+.bottom-content h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+    color: #fff;
+    font-weight: 400;
+    padding-bottom: 25px;
+}
+.bottom-content p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.bottom-shape{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: -80%;
+    left: 0;
+}
+
+
+/*======================= footer part cess goes here =====================*/
+
+#bottom-part{
+    background-color: #0d1119;
+    height: 80vh;
+}
+
+.footer-content h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+}
+.footer-content p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #8297a7;
+    font-weight: 400;
+}
+
+.footer-item{
+    margin-top: 66px;
+}
+
+.footer-social .fa-facebook-f{
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #2e3192;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+}
+.footer-social .fa-twitter{
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #00aeef;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+}
+.footer-social .fa-youtube{
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #ed3123;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+}
+.footer-social .fa-linkedin{
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #171a8f;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.footer-social{
+    margin-top: 20px;
+}
+.footer-social i{
+    margin: 0 5px;
+}
+
+.form-item .first-input{
+    width: 200px;
+    padding: 12px 0;
+    padding-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #83969f;
+    text-transform: capitalize;
+    border-radius: 5px;
+   position: relative;
+   z-index: 999;
+   border: 0;
+}
+.form-item input{
+    width: 340px;
+    padding: 12px 0;
+    padding-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #83969f;
+    font-weight: 500;
+    text-transform: capitalize;
+    border-radius: 5px;
+    position: relative;
+    z-index: 9999;
+    border: 0;
+}
+
+form button{
+    padding: 12px 32px;
+    background-color: #a2ca28;
+    border: transparent;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    z-index: 999;
+    
+}
+
+
+
+/*======================= nav bar cess goes here =====================*/
+/*======================= nav bar cess goes here =====================*/
+/*======================= nav bar cess goes here =====================*/
